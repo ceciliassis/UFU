@@ -1,6 +1,0 @@
-http://stackoverflow.com/questions/453018/number-of-lines-in-a-file-in-java
-http://stackoverflow.com/questions/1377279/find-a-line-in-a-file-and-remove-it
-http://stackoverflow.com/questions/2218005/how-to-get-a-random-line-of-a-text-file-in-java
-http://codereview.stackexchange.com/questions/47848/read-from-a-file-and-pick-a-random-line
-http://www.cin.ufpe.br/~tbl/artigos/learning-vol6-no2-art4.pdf (funcao)
-http://aimotion.blogspot.com.br/2008/12/funes-de-ativao-para-redes-neurais.html(funcao de ativacao)
