@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#geral{
+    display: block;
+}
+#um {
+    float:left;
+}
+#dois{
+    text-align: right;
+}

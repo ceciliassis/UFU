@@ -1,0 +1,72 @@
+body{
+	background: black;
+}
+
+#base{
+  margin: 0 0;
+  padding: 5px;
+}
+
+.centralizado {
+  margin: 0 auto;
+  width: 200px;
+  color: white;
+  padding: 20px;
+}
+
+.centralizado2{
+  margin: 0 auto;
+  width: 300px;
+  color: white;
+  padding: 20px;
+}
+
+.centralizado3{
+  margin: 0 auto;
+  width: 400px;
+  color: white;
+  padding: 20px;
+}
+
+.centralizado4{
+  margin-left:-25%;
+  width: 400px;
+  color: white;
+  padding:0 0 0 0px;
+}
+
+p{
+	padding:0 0 0 0px;
+	margin:0 0 0 0px;
+	text-align: center;
+}
+
+.campo input[type="text"],
+.campo input[type="password"]{
+    padding: 0.2em;
+    border: 1px solid #c635d7;
+    box-shadow: 2px 2px 2px #c635d7;
+    
+}
+
+.botao {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #dc7ee7;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #ffffff;
+   
+}
+ 
+.botao:hover {
+    background: #f462e6;
+    box-shadow:  2px 2px 2px #c635d7;
+    
+}
+ 
+.botao{
+    cursor: pointer;
+}

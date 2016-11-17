@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Usuário"
+        android:id="@+id/tvLogin"
+        />
+
+    <EditText
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="usuario"
+        android:id="@+id/etLogin"
+        android:layout_below="@+id/tvLogin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Senha"
+        android:id="@+id/tvSenha"
+        android:layout_below="@+id/etLogin"
+        />
+
+    <EditText
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="senha"
+        android:inputType="textPassword"
+        android:id="@+id/etSenha"
+        android:layout_below="@+id/tvSenha"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Logar"
+        android:layout_below="@+id/etSenha"
+        />
+
+</RelativeLayout>

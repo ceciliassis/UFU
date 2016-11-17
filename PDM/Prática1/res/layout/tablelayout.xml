@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+
+        <TableRow>
+            <TextView android:text="Produto A"/>
+            <TextView android:text="R$ 100,00"
+                android:gravity="right"
+                android:background="#808080"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Produto B"
+                android:background="#808080" />
+            <TextView android:text="R$ 100,00"
+                android:gravity="right"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2px"
+        android:background="#000000"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1">
+
+        <TableRow>
+            <TextView android:text="Produto A"
+                android:background="#808080"/>
+            <TextView android:text="Descrição curta"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Produto B"/>
+            <TextView android:text="Este produto possui uma descrição
+            muito grande e não caberia na tela normalmente"
+                android:background="#808080"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

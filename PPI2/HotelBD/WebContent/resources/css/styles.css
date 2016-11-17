@@ -1,0 +1,122 @@
+body {
+	background: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.img{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	
+}
+.formstyle{
+	margin-left:30%;
+	margin-top:-5.2%;
+	padding:0;
+}
+.autor {
+	color:#ad7fa8;
+	text-align: right;
+	margin-top:15%;
+}
+
+p.conf{
+	padding:0;
+	margin:0;
+}
+
+img {
+	width: 780px;
+	height: 191px;
+}
+
+.cssmenu {
+	float: left;
+	margin-top: 10%;
+	width: 15%;
+	position: relative;
+	padding-left: 3%;
+
+}
+
+.conteudo {
+	margin-left: 30%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+ul.vert-one {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+	font: bold 16px Helvetica, Verdana, Arial, sans-serif;
+	line-height: 165%;
+	width: 100%;
+}
+
+ul.sub{
+	margin-left:10%;
+	padding: 0;
+	list-style-type: none;
+	font: bold 16px Helvetica, Verdana, Arial, sans-serif;
+	line-height: 165%;
+}
+
+ul.vert-one li {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #5c3566;
+	border-bottom: 1px solid #ad7fa8;
+}
+
+ul.vert-one li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #DA70D6;
+	padding: 0 0 0 20px;
+}
+
+ul.vert-one li a:hover {
+	background: #f462e6 url("resources/imgs/arrow.gif") no-repeat 0
+		9px;
+}
+
+ul.vert-one li a.current, ul.vert-one li a.current:hover {
+	background: #c635d7 url("resources/imgs/arrow.gif") no-repeat 0
+		9px;
+}
+
+.campo input[type="text"],
+.campo input[type="password"],
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #c635d7;
+    box-shadow: 2px 2px 2px #c635d7;
+    
+}
+
+.botao {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #dc7ee7;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #ffffff;
+   
+}
+ 
+.botao:hover {
+    background: #f462e6;
+    box-shadow:  2px 2px 2px #c635d7;
+    
+}
+ 
+.botao{
+    cursor: pointer;
+}
