@@ -1,0 +1,5 @@
+﻿Visto que, ao alterar o numero de registros, foram utilizadas chaves anteriores, a quantidade de colisões nos casos aprensentador eram de se esperar pois a lista estava ordenada de forma alfabética.
+Comparado com uma distribução aleatória,onde qualquer posição pode ser assumida, a chance dar colisao ou não
+depende de equações, porém, caso o numero de colisões fosse alto, uma posição vazia do vetor poderia ser procurado, levando um tempo a mais também.
+	Como o acesso hash é direto, o tempo de procura por uma posição vaga do vetor, é reduzido, e o tratamento pode de colisões ser mais efetivo.
+

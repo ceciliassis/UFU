@@ -1,0 +1,18 @@
+﻿//BFS
+Vertice um = Grafo.addVertice(1);
+Vertice dois = grafo.addVertice(2);
+Vertice tres = grafo.addVertice(3);
+Vertice qatro = grafo.addVertice(4);
+Vertice cinco = grafo.addVertice(5);
+//Ciclos nao sao representados
+
+Aresta umCinco = grafo.addAresta(um, cinco);
+Aresta umDois = grafo.addAresta(um, dois);
+Aresta doisTres = grafo.addAresta(dois, tres);
+Aresta tresDois = grafo.addAresta(tres, dois);
+Aresta qatroDois = grafo.addAresta(qatro, dois);
+Aresta qatroTres = grafo.addAresta(qatro, tres);
+Aresta cincoQuatro = grafo.addAresta(cinco, qatro);
+
+System.out.println("----- BFS -----");
+BuscaLarguraBFS(um);
