@@ -1,0 +1,96 @@
+a {
+    outline: none;
+}
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+#menu {
+     background-color:chartreuse;   
+}
+
+#notas{
+    background-color:chocolate;
+}
+
+#biblio{   
+    background-color:darkorchid;
+}
+
+
+#song{   
+    background-color: black;
+}
+
+
+#talk{   
+    background-color:violet;
+}
+
+#fotos{
+   position: absolute;
+   display: table;
+   margin-left: 150px;
+   padding-top: 80px;
+    
+}
+
+.cadastroLivros, .cadastroNotas{
+    float: left;
+    padding: 3px 3px 3px 3px;
+    margin-top: 100px;
+    margin-right: 70px; 
+    margin-left: 20px;
+
+}
+
+.tabelaLivros, .tabelaNotas{
+    float: left;    
+    
+}
+.menuzin{
+    float: left;
+    padding: 2px 2px 2px 2px;
+    margin-left: 970px;
+    
+}
+.menuzin img{
+    width: 30px;
+    height: 30px;
+}
+#tabBiblio, #tabNota{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tudo{
+    font-family: Georgia;
+    display: table;
+    color: white;
+    
+}
+
+.tudo h1{
+    color:aliceblue;
+}
+
+#tabela td{
+   text-align: center;
+}
+
+input:focus, select:focus, textarea:focus {
+    background: #FFC;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="password"],
+select,
+textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+        Chamar um prompt dizendo OLA QUAL O SEU NOME, e ai fazer algo personalizado
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src ="geral.js"></script> 
+
+        <title>Nothing in Special</title>
+        
+    </head>
+    <body>
+        
+        <div id="menu">
+            <img src="images/intro.png" alt="">
+            <div id="fotos">
+                <a id="a"  href="#"><img src="images/notas.png" alt=""></a> 
+                <a id="b"  href="#"> <img src="images/biblio.png" alt=""></a> 
+                <a id="c" href="gamePage.html"><img src="images/bonus.png" alt=""></a> 
+                <a id="d" href="#" ><img src="images/fc.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div id="notas" class="tudo">
+            <img src="images/introNotas.png" alt="">
+            <div class="cadastroNotas">
+            <h1>Cadastro <br> de Notas</h1>
+            
+            <form name="formNota">
+                    <p>
+                        Matrícula:<br>
+                        <input name="mat" type="text" onfocus="this.value=''">
+                    </p>
+                    <p>
+                        Nome: <br>
+                        <input name="nomee" type="text" onfocus="this.value=''">
+                    </p>
+                    <p>
+                        Nota: <br>
+                    <input name="nota" type="text" onfocus="this.value=''">
+                    </p>
+
+                 <button type="button" id="okok">Cadastrar Nota</button>
+                </form>
+            </div>
+            <div class="tabelaNotas">
+                <h1>Notas</h1>
+                <table width="500" border="1" cellspacing="0" cellpadding="5" summary="Tabela de Cadastro" id="tabNota">
+                    <thead>
+                      <tr>
+                        <th scope="col">Matricula</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Nota</th>
+                      </tr>
+                    </thead>
+              </table>
+
+            </div>
+            <div class="menuzin">
+                <a id="e" href="#"><img  src="images/1.png" alt=""><br><br></a>
+                
+                <a id="g" href="#"><img src="images/3.png" alt=""><br><br></a>
+                <a id="h" href="#"><img  src="images/4.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div id="biblio" class="tudo">
+            <img src="images/introBiblio.png" alt="">
+            <div class="cadastroLivros">
+            <h1>Cadastro <br> de Livros</h1>          
+            <form name="formBiblio">
+                    <p>
+                        Título:<br>
+                        <input name="tit" type="text" onfocus="this.value=''">
+                    </p>
+                    <p>
+                        Autor(es):<br>
+                        <input name="aut" type="text" onfocus="this.value=''">
+                    </p>
+                    <p>
+                        Número de páginas:<br>
+                        <input name="numPg" type="text" onfocus="this.value=''">
+                    </p>
+                    <p>
+                        Editora:<br>
+                    <input name="edi" type="text" onfocus="this.value=''">
+                    </p>
+
+                 <button type="button" id="ok2">Cadastar Livro</button>
+                </form>
+            </div>
+            <div class="tabelaLivros">
+                <h1>Livros Cadastrados </h1>
+                <table width="500" border="1" cellspacing="0" cellpadding="5" summary="Tabela de Cadastro" id="tabBiblio">
+                    <thead>
+                      <tr>
+                        <th scope="col">Título</th>
+                        <th scope="col">Autor(es)</th>
+                        <th scope="col">Num de Páginas</th>
+                        <th scope="col">Editora</th>
+                      </tr>
+                    </thead>
+              </table>
+
+            </div>
+            <div class="menuzin">
+                <a  href="#"><img id="i"  src="images/1.png" alt=""><br><br></a>
+                <a id="j" href="#"><img src="images/2.png" alt=""><br><br></a>
+                <a id="l" href="#"><img  src="images/4.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div id="talk"> 
+
+            <img src="images/fc2.png" alt="">
+            <a href="https://drive.google.com/folderview?id=0BwcyHguhp_xYdHZHdVdoRDFDdE0&usp=sharing"><img src="images/cod.png" alt=""></a>
+            <br><br>
+            <img src="images/tchau.png" alt="">
+            <br><br><br><br>
+            
+            <a href="refs.txt"><img src="images/refes.png" alt=""></a>
+            
+        </div>
+       
+        
+    </body>
+</html>
