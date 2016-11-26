@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
-
+/*
+Implemente um algoritmo que gera as amostras em ordem reversa
+*/
 using namespace std;
 
 void arranjo_reverso(int, int, vector<int> &);

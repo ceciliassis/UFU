@@ -1,4 +1,7 @@
-1
+/*
+Crie um algoritmo que lê n números e calcula a média geométrica, utilizando força bruta para o cálculo da raiz.
+Repita o exercício utilizando a técnica vista em aula para o cálculo da raiz.
+ */
 
 media(vSize,m)
   
@@ -45,8 +48,8 @@ laco(vSize, n)
     n*=n;
   return n;
   
-2
 
+/*2. Crie um algoritmo que encontre um inteiro cujo quadrado é o mais próximo possível, mas maior, que o inteiro lido como entrad*/
 sqrt(m)
   float n=m;
   while(|(n*n)-m|<10^-6)
