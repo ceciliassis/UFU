@@ -1,0 +1,14 @@
+<ion-view view-title="Home">
+  <ion-content class="padding">
+    <h1 style="text-align:center">Bem vindo ao <b>CPGQueue</b></h1>
+    <h3>Esse aplicativo tem como alvo o gerenciamento de filas!</h3>
+    <h4>Clique no botão "Buscar Mesa", selecione o número de acompanhantes, confirme e aguarde.</h4>
+    <br/><br/>
+    <button ng-hide="fetched" class="button button-block button-positive" ng-click="openFetchTableModal()">
+      Buscar Mesa
+    </button>
+    <button ng-show="fetched" class="button button-block button-balanced" ng-click="queueInfo()">
+      Informaçãoes sobre a Fila
+    </button>
+  </ion-content>
+</ion-view>

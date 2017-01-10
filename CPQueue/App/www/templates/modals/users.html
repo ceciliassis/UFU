@@ -1,0 +1,17 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Usuários Cadastrados</h1>
+  <button class="button button-clear button-positive" ng-click="closeUsersModal()">Fechar</button>
+  </ion-header-bar>
+  <ion-content>
+    <div class="padding">
+       <div class="list">
+       <div class="item" ng-repeat="user in users">
+         <p>{{user.name}}</p>
+         <small>
+           <strong>{{user.username}}</strong>
+         </small>
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

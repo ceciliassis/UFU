@@ -1,0 +1,17 @@
+<ion-modal-view>
+  <ion-header-bar>
+  <button class="button button-icon icon ion-plus-round" ng-click="newTable()"></button>
+    <h1 class="title">Mesas Cadastradas</h1>
+  <button class="button button-clear button-positive" ng-click="closeTablesModal()">Fechar</button>
+  </ion-header-bar>
+  <ion-content>
+    <div class="padding">
+       <div class="list">
+       <div class="item" ng-repeat="table in tables">
+         <p align="center">
+           <strong>{{table._id}}</strong>
+         </p>
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

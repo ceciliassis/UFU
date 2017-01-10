@@ -1,0 +1,24 @@
+{
+  "name": "cpgqueue-web",
+  "version": "1.0.0",
+  "description": "Server-side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cecilia Assis",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fastpriorityqueue": "^0.1.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0",
+    "mpromise": "^0.5.5",
+    "node-gcm": "^0.14.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}

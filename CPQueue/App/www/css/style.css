@@ -1,0 +1,10 @@
+.spinner svg {
+  width: 35px;
+  height: 35px;
+  stroke: #20F41A;
+}
+
+
+.overflow-scroll {
+  overflow-y: auto;
+}

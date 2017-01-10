@@ -1,0 +1,34 @@
+<ion-modal-view >
+  <ion-header-bar>
+    <h1 class="title">Cadastro</h1>
+    <div class="buttons">
+      <button class="button button-clear button-positive" ng-click="closeSignUpModal()">Fechar</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="padding">
+      <h3>Olá!</h3>
+      <h4>Faça o seu cadastro!</h4>
+    </div>
+    <form name="signUpForm" ng-submit="signup()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Nome</span>
+          <input type="text" name="name" ng-model="user.name">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" name="username" ng-model="user.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Senha</span>
+          <input type="password" name="password" ng-model="user.password">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Cadastrar</button>
+        </label>
+      </div>
+
+    </form>
+  </ion-content>
+</ion-modal-view>
