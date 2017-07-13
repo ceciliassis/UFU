@@ -1,0 +1,56 @@
+/* 
+    Created on : 11/02/2015, 10:48:47
+    Author     : Vicente
+*/
+
+.background {
+    -fx-background-image: url("background.jpg");
+}
+
+.button {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#b8b8b8, #4a4a4a);
+    -fx-font-size: 10pt;
+    -fx-border-color: black;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#4a4a4a, #b8b8b8);
+}
+
+.text-field {
+    -fx-background-color: black,linear-gradient(to bottom, derive(black,90%) 5%,derive(dimgrey,60%) 40%);
+}
+
+.text-field:focused, .text-area:focused {
+    //-fx-background-color: black,linear-gradient(to bottom, derive(dimgrey,60%) 5%,derive(black,90%) 40%);
+    -fx-border-color: black;
+    -fx-border-width: 1.8;
+}
+
+.choice-box{
+    -fx-background-color: black,linear-gradient(to bottom, derive(black,90%) 5%,derive(dimgrey,60%) 40%);
+}
+
+.choice-box:focused{
+    -fx-background-color: black,linear-gradient(to bottom, derive(dimgrey,60%) 5%,derive(black,90%) 40%);
+    
+}
+
+.date-picker{
+    -fx-background-color: black,linear-gradient(to bottom, derive(black,90%) 5%,derive(dimgrey,60%) 40%);
+}
+
+
+
+
+
+
+
+
+

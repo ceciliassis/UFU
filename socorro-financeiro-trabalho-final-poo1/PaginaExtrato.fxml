@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?language javascript?>
+<?import javafx.collections.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Account.PaginaExtratoController">
+    <children>
+        <Button fx:id="voltarMenu" layoutX="696.0" layoutY="546.0" mnemonicParsing="false" onAction="#irParaPagina1" prefHeight="40.0" prefWidth="91.0" text="Voltar" />
+      <Pane layoutX="14.0" layoutY="14.0">
+         <children>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="519.0" prefWidth="247.0" stylesheets="@back.css">
+                    <children>
+                        <GridPane layoutX="13.0" layoutY="124.0" prefHeight="325.0" prefWidth="211.0">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="94.0" minWidth="10.0" prefWidth="82.0" />
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="130.0" minWidth="10.0" prefWidth="118.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                            </rowConstraints>
+                            <children>
+                                <Label text="Descrição" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="1">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Categoria" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="2">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Valor" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="3">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label contentDisplay="CENTER" text="Data" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="removerGasto" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="82.0" text="Remover " GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                <Button fx:id="addGasto" mnemonicParsing="false" prefHeight="40.0" prefWidth="82.0" text="Adicionar" GridPane.rowIndex="5" />
+                                <TextField fx:id="tfDescricao" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <ChoiceBox fx:id="cbCategoria" prefHeight="25.0" prefWidth="199.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                    <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Alimentação" />
+                                            <String fx:value="Transporte" />
+                                            <String fx:value="Serviços" />
+                                            <String fx:value="Saúde" />
+                                            <String fx:value="Lazer" />
+                                        </FXCollections>
+                                    </items>
+                                </ChoiceBox>
+                                <TextField fx:id="tfValor" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="dpData" GridPane.columnIndex="1" />
+                            </children>
+                        </GridPane>
+                  <Text fill="#ababab" layoutX="35.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Novo Gasto">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="carregarMovs" layoutX="-2.0" layoutY="465.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="234.0" text="Carregar Movimentações Antigas" />
+                    </children>
+                </AnchorPane>
+                  <TableView fx:id="tvExtrato" layoutX="242.0" prefHeight="519.0" prefWidth="537.0">
+                      <columns>
+                          <TableColumn fx:id="tcData" prefWidth="130.0" text="Data" />
+                          <TableColumn fx:id="tcDescricao" prefWidth="176.0" text="Descrição" />
+                          <TableColumn fx:id="tcCategoria" prefWidth="130.0" text="Categoria" />
+                          <TableColumn fx:id="tcValor" prefWidth="100.0" text="Valor" />
+                      </columns>
+                  </TableView>
+         </children>
+      </Pane>
+      <Label fx:id="campoExtrato" layoutX="298.0" layoutY="554.0" prefHeight="25.0" prefWidth="364.0" textFill="#eb0404">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+    </children>
+    <stylesheets>
+        <URL value="@back.css" />
+    </stylesheets>
+</AnchorPane>
