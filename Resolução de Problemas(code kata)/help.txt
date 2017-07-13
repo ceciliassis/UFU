@@ -1,8 +1,0 @@
-Utilizando o seguinte cóg > while(cin >> i >> j) //"entrando no i" 	threeNPlusOne(i,j);
-Enquanto houver entradas , o código funcionará;
-
-se na linha de comando , utilizarmos o seguinte cod > ./a.out < input.txt
-  --> sendo a.out a saída do seu programa
-tendo feito um input.txt com os valores a serem lidos
-o programa lerá enquanto tiver dados!
-

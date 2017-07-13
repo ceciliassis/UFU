@@ -1,2 +1,0 @@
-
-4. Modifique o algoritmo de geração de amostras para que imprima apenas as permutações cuja soma dos itens seja igual a 5. Faça isto sem utilizar um laço para calcular a soma da amostra.
