@@ -1,0 +1,1 @@
+Pasta que contém códigos aleatórios que podem ajudar ao longo do tempo!
