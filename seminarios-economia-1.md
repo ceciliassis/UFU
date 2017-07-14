@@ -1,4 +1,4 @@
-#inovacao e difusao
+# inovacao e difusao
 - inovocao: efetiva aplicação comercial de uma invenção
     + tipos:
         * produtos
@@ -32,7 +32,7 @@
     + geralmente tem ambientes instuicionais piores
     + não motiva a pesquisa e o desenvolvimento
 
-#TIC e gestão de negócios
+# TIC e gestão de negócios
 - TIC: tecnologia da informação e comunicação
 - oportunidade de crescimento sustentavel.
 - informaçoes devem ser armazenadas
@@ -57,7 +57,7 @@
     + custo
     + estruturais (infraestrutura)
 
-#producao fordista a toyotista
+# producao fordista a toyotista
 - taylorismo: 
     + sistema dividido em tarefas
     + diminuição de fadigas
@@ -83,7 +83,7 @@
         * trabalhos qualificados
             - treinamento
 
-#patentes no brasil
+# patentes no brasil
 - garantia de direito e intelectual sobre o produto
 - muita demora para analise, chegando a 11 anos, no Brasil
 - recebimento de royaltes pelas ideias utilizadas, patenteadas
@@ -93,7 +93,7 @@
     + promove tempo de carencia para confirmação da intenção de registro de patente
 - pode se tornar um processo caro
 
-#diversificacao da produção
+# diversificacao da produção
 - uma das estratégias de crescimento
 - nao espera o corte com os produtos antigos
     + podendo diversificar somente alguma areas
@@ -128,7 +128,7 @@
     + novo processo
 - **integração horizontal**
 
-#integração vertical
+# integração vertical
 - pode ser combinada com a integração horizontal
 - diversificação nas etapas de produção da empresa
     + produção dos produtos intermediários
@@ -156,7 +156,7 @@
 - as vezes não tem como as empresas fazerem tudo sozinhas
 - geralmente faz o uso da terceirização
 
-#terceirização
+# terceirização
 - processo onde empresa contrata outra para a prestacao de serviço
 - nova lei
     + empresas podem terceirizar a sua atividade fim
@@ -204,7 +204,7 @@
     + pode ser aplicada sobre grupos diferentes
         * ex: Unilever
 
-#esforço de vendas
+# esforço de vendas
 - ligado com a diferenciação de produto
     + utiliza praticas
         * discriminação de preço
@@ -237,7 +237,7 @@
 - fazer com que produto tenha rotatividade
 - precisa ver se faz sentido, se é a melhor pegada
 
-#estratégias competitivas *cap9*
+# estratégias competitivas *cap9*
 - estrategias
     + influencia na ação do competidor
     + busca de posição fundamental na industria
@@ -280,4 +280,4 @@
                 + melhor por ser lançado assim q a oportunidade sai
                 +
 
-#empresa pode adotar todos os tipos de conceitos mostrados, conjuntamente!
+### empresa pode adotar todos os tipos de conceitos mostrados, conjuntamente!
