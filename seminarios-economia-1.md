@@ -175,7 +175,7 @@
         * tem como a empresa que terceiriza o serviço aprender os processos de produção
 - da para terceirizar tudo com a nova lei
 
-#diferenciação de produto
+# diferenciação de produto
 - processo de distinguir produtos e processos de seus concorrentes
 - modificação do produto de forma a torná-lo mais atrativo
     + trazer destaque no mercado
