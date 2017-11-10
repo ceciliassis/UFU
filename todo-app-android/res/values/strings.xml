@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TODO List !</string>
+
+    <string name="action_settings">Preferencias</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_sair">Sair</string>
+    <string name="title_activity_tela_cadastro_item">Novo Item</string>
+    <!-- Strings related to login -->
+    <string name="hint_item">Descrição</string>
+    <string name="hint_data">Prazo Final (Data)</string>
+
+    <!-- Strings related to login/cadastro -->
+    <string name="title_activity_tela_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+
+    <string name="error_invalid_email">Esse endereço de emal é inválido</string>
+    <string name="error_invalid_password">Essa senha é muito pequena</string>
+
+    <string name="error_field_required">Esse campo é obrigatório</string>
+
+    <string name="title_activity_tela_cadastro">Cadastrar</string>
+
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_tela_edita_item">Alterar</string>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/list_item_thumbnail"
+        android:layout_alignParentTop="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/list_item_thumbnail">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is row number 15"
+            android:textColor="@color/colorText"
+            android:id="@+id/list_item_text"
+            android:layout_toEndOf="@+id/list_item_thumbnail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   "
+            android:textColor="@color/colorAccent"
+            android:id="@+id/list_item_data"
+            android:layout_toEndOf="@+id/list_item_thumbnail"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:text="Feito!"
+        android:layout_alignParentRight="true"
+        android:id="@+id/list_item_btn"/>
+
+
+</RelativeLayout>
